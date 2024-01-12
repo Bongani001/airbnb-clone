@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Bongani Nyaku",
+      "email": "bnyaku@123.com",
+      "phone": "1-770-736-8031"
+    },
+    {
+      "id": "2",
+      "name": "Ervin Howell",
+      "email": "Shanna@melissa.tv",
+      "phone": "010-692-6593"
+    },
+    {
+      "id": "921f",
+      "email": "damaers@mail.com",
+      "password": "123456"
+    },
+    {
+      "id": "0904",
+      "email": "damaers@mail.com",
+      "password": "123456"
+    },
+    {
+      "id": "5fd4",
+      "email": "damaers@mail.com",
+      "password": "123456"
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": "1",
+      "startDate": "2022-02-20",
+      "endDate": "2022-02-23",
+      "userId": "1",
+      "id": "35d5"
+    }
+  ],
+  "listings": [
+    {
+      "id": "1",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": 2000,
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": "2"
+    }
+  ]
+}
