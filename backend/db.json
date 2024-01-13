@@ -1,45 +1,47 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "Bongani Nyaku",
-      "email": "bnyaku@123.com",
+      "id": 1,
+      "name": "Patrick Rashidi",
+      "email": "prashidi@123.com",
       "phone": "1-770-736-8031"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Ervin Howell",
       "email": "Shanna@melissa.tv",
       "phone": "010-692-6593"
     },
     {
-      "id": "921f",
-      "email": "damaers@mail.com",
-      "password": "123456"
+      "email": "olivier@mail.com",
+      "password": "$2a$10$oUhDGmecQTvwFOLJog1jGemiSHGRWuX/uRCVagZuRpbe84SHoiLzq",
+      "id": 3
     },
     {
-      "id": "0904",
-      "email": "damaers@mail.com",
-      "password": "123456"
+      "email": "patient@mail.com",
+      "password": "$2a$10$4v9D1Z.S7cxV0VlreaKx9.RFTiGi3HNqRoD82Ns5Xcro2hj1/6y4i",
+      "id": 4
     },
     {
-      "id": "5fd4",
       "email": "damaers@mail.com",
-      "password": "123456"
+      "password": "$2a$10$hSoobrWLvQDr1LJxNopo5.czehFnGIl2v48F4hE8eek4CxlrEJBMe",
+      "id": 5
     }
   ],
   "bookings": [
     {
-      "listingId": "1",
+      "listingId": 1,
       "startDate": "2022-02-20",
-      "endDate": "2022-02-23",
-      "userId": "1",
-      "id": "35d5"
+      "endDate": "2022-02-21",
+      "userId": "1"
     }
   ],
   "listings": [
     {
-      "id": "1",
+      "id": 1,
+      "img": "https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720",
+      "title":"Online Experiences",
+      "description":"Unique activities we can do together, led by a world of hosts.",
       "bath_num": 3,
       "bed_num": 4,
       "zip": 23456,
@@ -49,7 +51,23 @@
       "price": 2000,
       "sq_ft": 4.2,
       "email": "test@test.com",
-      "userId": "2"
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "img": "https://media.nomadicmatt.com/2019/airbnb_breakup4.jpg",
+      "title":"Penthouse in London",
+      "description":"Enjoy the amazing sights of London with this stunning penthouse",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": "£350/night",
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": 2
     }
   ]
 }

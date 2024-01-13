@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 import SearchPage from "./components/SearchPage";
+import Modal from "./components/Modal";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
             <SearchPage />
           </Route>
         </Switch>
+        <Route path="/" >
+          <Modal />
+        </Route>
         <Footer />
       </Router>
     </div>
