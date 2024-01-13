@@ -2,7 +2,9 @@ import React from "react";
 import "./Login.css";
 
 const Login = () => {
-  const submitLogin = () => {};
+  const submitLogin = (e) => {
+    e.preventDefault()
+  };
   return (
     <div className="login-form">
       <h2>Log in or Sign up</h2>
