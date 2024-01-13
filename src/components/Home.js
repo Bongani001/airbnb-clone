@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { UseDispatch, useDispatch, useSelector } from "react-redux";
 import Banner from "./Banner";
 import Card from "./Card";
 import "./Home.css";
+import {listListing} from "../actions/listingActions";
 
 const Home = () => {
+  const dispatch = useDispatch();
+
+  const listingList = useSelector((state) => state.listingList);
+  const { loading, error, listings } = listingList;
+
+  useEffect(() => {
+    dispatch(listListing())
+  })
+
   return (
     <div className="home">
       <Banner />
