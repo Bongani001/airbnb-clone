@@ -26,6 +26,36 @@
       "email": "damaers@mail.com",
       "password": "$2a$10$hSoobrWLvQDr1LJxNopo5.czehFnGIl2v48F4hE8eek4CxlrEJBMe",
       "id": 5
+    },
+    {
+      "id": "c8f5",
+      "email": "damaers@mail.com",
+      "password": "csdacvfvsfdv"
+    },
+    {
+      "id": "3098",
+      "email": "damaers@mail.com",
+      "password": "dvsfvbsdfgbsgb"
+    },
+    {
+      "id": "dceb",
+      "email": "damaers@mail.com",
+      "password": "sfbgnbdhndhn"
+    },
+    {
+      "id": "fb01",
+      "email": "damaers@mail.com",
+      "password": "kjbjhvjhb"
+    },
+    {
+      "id": "6e47",
+      "email": "damaers@mail.com",
+      "password": "iugoiuh"
+    },
+    {
+      "id": "4dbd",
+      "email": "damaers@mail.com",
+      "password": "hgvouyhgojh"
     }
   ],
   "bookings": [
@@ -33,15 +63,16 @@
       "listingId": 1,
       "startDate": "2022-02-20",
       "endDate": "2022-02-21",
-      "userId": "1"
+      "userId": "1",
+      "id": "560d"
     }
   ],
   "listings": [
     {
       "id": 1,
       "img": "https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720",
-      "title":"Online Experiences",
-      "description":"Unique activities we can do together, led by a world of hosts.",
+      "title": "Online Experiences",
+      "description": "Unique activities we can do together, led by a world of hosts.",
       "bath_num": 3,
       "bed_num": 4,
       "zip": 23456,
@@ -56,8 +87,8 @@
     {
       "id": 2,
       "img": "https://media.nomadicmatt.com/2019/airbnb_breakup4.jpg",
-      "title":"Penthouse in London",
-      "description":"Enjoy the amazing sights of London with this stunning penthouse",
+      "title": "Penthouse in London",
+      "description": "Enjoy the amazing sights of London with this stunning penthouse",
       "bath_num": 3,
       "bed_num": 4,
       "zip": 23456,
