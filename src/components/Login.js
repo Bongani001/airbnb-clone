@@ -15,8 +15,9 @@ const Login = () => {
 
   useEffect(() => {
     if (userInfo) {
+      dispatch(openModal("closed"));
     }
-  }, [userInfo]);
+  }, [dispatch, userInfo]);
 
   const submitLogin = (e) => {
     e.preventDefault();

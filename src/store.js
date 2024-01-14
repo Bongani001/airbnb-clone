@@ -13,7 +13,7 @@ const reducer = combineReducers({
 
 const userInfoFromLS = localStorage.getItem("userInfo")
   ? JSON.parse(localStorage.getItem("userInfo"))
-  : {};
+  : null;
 
 const initialState = {
   userLogin: { userInfo: userInfoFromLS },

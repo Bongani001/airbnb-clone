@@ -1,5 +1,5 @@
 import React from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import SearchIcon from "@mui/icons-material/Search";
 import LanguageIcon from "@mui/icons-material/Language";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
@@ -10,6 +10,9 @@ import "./Header.css";
 
 const Header = () => {
   const dispatch = useDispatch();
+
+  const userLogin = useSelector((state) => state.userLogin);
+  const { userInfo } = userLogin;
 
   const openModalHandler = () => {
     dispatch(openModal("open", <Login />));
@@ -30,7 +33,22 @@ const Header = () => {
       <div className="header_right">
         <p>Become a host</p>
         <LanguageIcon />
-        <ExpandMoreIcon />
+        <div className="dropdown">
+          <ExpandMoreIcon className="dropbtn" />
+          <div className="dropdown-content">
+            {userInfo ? (
+              <>
+                <span>Account</span>
+                <span>Log out</span>
+              </>
+            ) : (
+              <>
+                <span>Sign up</span>
+              </>
+            )}
+            <span>Help</span>
+          </div>
+        </div>
         <span onClick={openModalHandler}>Log in</span>
         <Avatar />
       </div>
